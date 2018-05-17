@@ -20,7 +20,7 @@ qproperty-groupMode:true;
 
 }
 
-QHexEdit#SOJHexEditor
+QHexEdit#HexEditor
 {
          /* 大小 */
         qproperty-hexCaps:true;

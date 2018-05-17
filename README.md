@@ -5,3 +5,8 @@ Requirements:   > Qt 4.8.6
 New features: 
   1. Format String display. 
   2. More configuration.
+  
+Snapshot:
+
+  <img src="hexeditor.png" />  
+  
