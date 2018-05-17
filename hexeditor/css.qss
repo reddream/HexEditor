@@ -1,0 +1,38 @@
+
+QHexEdit
+{
+       /* 控件失效时候的背景颜色 */
+       qproperty-disabledColor:#E6E6E6;
+}
+
+/*一般干扰技术码 组模式已经在代码中设置为true 并且 dynamicBytesPerLine 已经为true*/
+QHexEdit#Hex4BytesEditor
+{
+qproperty-groupMode:true;
+         /* 大小 */
+        qproperty-hexCaps:true;
+        /* 是否高亮改变的值 */
+        qproperty-highlighting:true;
+        /*多少字节一组,只有在groupMode 为true 时才生效*/
+        qproperty-groupSize:4;
+        /*每组的间隔*/
+        qproperty-separated:'-';
+
+}
+
+QHexEdit#SOJHexEditor
+{
+         /* 大小 */
+        qproperty-hexCaps:true;
+        /* 组模式 */
+        qproperty-groupMode:true;
+        /* 每行自适应显示字节 */
+        qproperty-dynamicBytesPerLine:true;
+        /* 是否高亮改变的值 */
+        qproperty-highlighting:true;
+        /*多少字节一组,只有在groupMode 为true 时才生效*/
+        qproperty-groupSize:4;
+        /*每组的间隔*/
+        qproperty-separated:'-';
+
+}
